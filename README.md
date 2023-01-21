@@ -1,5 +1,9 @@
 # IOT-server
 
+This project aims to store the data collected from an IOT device into a time series database, 
+`QuestDB` for example and create graphical representations of the data to better understand the 
+data.
+
 ## Requirements
 - Docker
 - Nodejs
