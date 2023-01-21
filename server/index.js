@@ -69,13 +69,12 @@ app.post("/publish",async (req,res)=>{
   save({person, pos_x, pos_y, vel_x, vel_y, o_id, time})
   .then(()=>{
     console.log("Entry saved!")
-    return res.status(201)
+    return res.status(201).json({"message": "Success"})
   })
   .catch(err=>{
     console.error("Fail", err)
-    return res.status(500)
+    return res.status(500).json({"message": "Something went wrong"})
   })
-  res.end()
 })
 
 app.listen(8000, ()=>{

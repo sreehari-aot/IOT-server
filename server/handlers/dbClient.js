@@ -2,7 +2,7 @@ const { Sender } = require("@questdb/nodejs-client");
 
 exports.save  = async(data)=> {
   const sender = new Sender({ bufferSize: 4096 });
-  await sender.connect({ port: 9009, host: "localhost" });
+  await sender.connect({ port: 9009, host: process.env.DB_HOST });
 
   const {person, pos_x, pos_y, vel_x, vel_y, o_id, time} = data;
   sender
