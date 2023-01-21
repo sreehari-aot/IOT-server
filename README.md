@@ -18,3 +18,11 @@ data.
 7. run `node script.js`
 8. check into client directory
 9. run `docker-compose up -d` / `npm i && npm start` to start the client
+
+
+TODO:
+
+- [ ] Heatmap chart for the data points
+- [ ] Move hardcoded values into configurations
+- [ ] Single compose file to setup entire application
+- [ ] Optimized script to publish large data sets
