@@ -29,3 +29,11 @@ TODO:
 - [ ] Single compose file to setup entire application
 - [ ] Optimized script to publish large data sets
 - [ ] Script modification to add time delay to mock an IOT device
+
+
+## Dependencies 
+- `react:18.2.0`
+- `recharts:2.3.2`
+- `react-heatmap-grid:0.9.0`
+- `express:4.18.2`
+- `@questdb/nodejs-client:1.0.2`
