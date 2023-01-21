@@ -8,6 +8,36 @@ A small chunk of datasets are provided by the server which the publisher will us
 
 The publisher script act as an IOT device which publishes data points in certain intervals.
 
+
+## Server endpoints
+
+```
+POST
+url path: {server-url}/publish eg: localhost:8000/publish
+body: {
+    "timeStamp":"1662896469284",
+    "person": "1",
+    "pos_x": 15.32,
+    "pos_y": 8.75,
+    "vel_x": 0,
+    "vel_y": 0,
+    "o_id": "631dad359fbc895818809423"
+}
+
+payload type: application/json
+
+GET
+
+url path: {server-url}/get
+query params: 
+  query {url encoded SQL query}
+  type enum [1 / 2] 1- for position graph, 2 - for count graph
+  
+eg: http://localhost:8000/get?query=SELECT%20*%20from%20%27Human%27&timings=true&type=1
+
+
+```
+
 ## Requirements
 - Docker
 - Nodejs
