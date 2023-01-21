@@ -5,6 +5,7 @@ const { save } = require("./handlers/dbClient.js");
 const app = express();
 const path = require("path");
 const axios = require("axios");
+require("dotenv").config()
 
 app.use(cors());
 app.use(bodyParser.json({limit: "16mb"}));
@@ -39,7 +40,7 @@ const getEntry = (item, type) => {
 
 app.get("/get", (req, res)=>{
   const {limit, explain, count, src, query, timings, type} = req.query;
-  const url = `http://localhost:9000/exec?query=${encodeURIComponent(query)}`
+  const url = `${process.env.DB_URL}/exec?query=${encodeURIComponent(query)}`
 
   axios.get(url)
   .then(response => {
