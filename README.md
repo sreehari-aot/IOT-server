@@ -4,6 +4,8 @@ This project aims to store the data collected from an IOT device into a time ser
 `QuestDB` for example and create graphical representations of the data to better understand the 
 data.
 
+The publisher script act as an IOT device which publishes data points in certain intervals.
+
 ## Requirements
 - Docker
 - Nodejs
