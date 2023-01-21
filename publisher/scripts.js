@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const dataUrl = 'http://localhost:8000/data/set2.json';
+const dataUrl = 'http://localhost:8000/data/set1.json';
 const postUrl = 'http://localhost:8000/publish';
 
 
@@ -26,17 +26,19 @@ const getData = (url, done)=>{
     });
 }
 
-getData(dataUrl, (data)=>{
+
+getData(dataUrl, async (data)=>{
     data.forEach(element => {
-        for (let instance in element.instances) {
+        let entry = {...element}
+        for (let instance in entry.instances) {
             let payload = {
-                "timeStamp":element.timestamp.$date.$numberLong,
+                "timeStamp":entry.timestamp.$date.$numberLong,
                 "person": instance,
-                "pos_x": element.instances[instance]["pos_x"],
-                "pos_y": element.instances[instance]["pos_y"],
-                "vel_x": element.instances[instance]["vel_x"],
-                "vel_y": element.instances[instance]["vel_y"],
-                "o_id": element._id.$oid
+                "pos_x": entry.instances[instance]["pos_x"],
+                "pos_y": entry.instances[instance]["pos_y"],
+                "vel_x": entry.instances[instance]["vel_x"],
+                "vel_y": entry.instances[instance]["vel_y"],
+                "o_id": entry._id.$oid
             }
             postData(postUrl, payload)
         }
