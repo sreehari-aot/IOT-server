@@ -28,3 +28,4 @@ TODO:
 - [ ] Move hardcoded values into configurations
 - [ ] Single compose file to setup entire application
 - [ ] Optimized script to publish large data sets
+- [ ] Script modification to add time delay to mock an IOT device
