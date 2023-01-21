@@ -1,0 +1,25 @@
+# Author: Sreehari PS
+version: "3.7"
+
+volumes:
+  questdb:
+
+networks:
+  questdb-server-network:
+    driver: 'bridge'
+
+services:
+  quest-db:
+    image: questdb/questdb:6.6.1
+    restart: always
+    container_name: quest_db
+    volumes:
+      - ./questdb/data:/var/lib/questdb
+    
+    ports: [
+      "9000:9000",
+      "9009:9009",
+      "9003:9003",
+    ]
+    networks:
+      - questdb-server-network
