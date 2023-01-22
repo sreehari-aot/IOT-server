@@ -40,7 +40,7 @@ eg: http://localhost:8000/get?query=SELECT%20*%20from%20%27Human%27&timings=true
 
 ## Requirements
 - Docker
-- Nodejs
+- Nodejs: v14.17.0
 
 ## Get started
 
