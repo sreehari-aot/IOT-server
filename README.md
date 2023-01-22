@@ -57,6 +57,9 @@ This project consistes of 4 majour components
     once all data is published.
 4. Client:-
     The client is a react application which helps to visualize the data in a graphical format.
+    The client is running in port 3000
+    To visit the client go to http://localhost:3000
+    
     The client offers different charts 
      - Line charts 
      - Heatmaps (TODO)
