@@ -1,7 +1,8 @@
 const axios = require('axios');
+require("dotenv").config()
 
-const dataUrl = 'http://localhost:8000/data/set1.json';
-const postUrl = 'http://localhost:8000/publish';
+const dataUrl = `${process.env.SERVER_URL}/data/set1.json`;
+const postUrl = `${process.env.SERVER_URL}/publish`;
 
 let index = 0;
 

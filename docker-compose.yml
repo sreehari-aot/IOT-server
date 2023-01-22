@@ -38,6 +38,17 @@ services:
       - questdb-server-network
     links:
       - quest-db
+  publisher:
+    container_name: publisher
+    build:
+      context: ./publisher
+      dockerfile: Dockerfile
+    environment:
+      SERVER_URL: ${SERVER_URL:-http://server:8000}
+    networks:
+      - questdb-server-network
+    links:
+      - server
     
   client:
     container_name: client
