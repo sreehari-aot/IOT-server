@@ -513,4 +513,1091 @@
       "sensors": []
     }
   }
-}]
+},
+{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896500013"
+    }
+  },
+  "_id": {
+    "$oid": "631dad549fbc89581880943c"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 14.58,
+      "pos_y": 8.72,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896500270"
+    }
+  },
+  "_id": {
+    "$oid": "631dad549fbc89581880943d"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 13.394,
+      "pos_y": 8.03,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896500526"
+    }
+  },
+  "_id": {
+    "$oid": "631dad549fbc89581880943e"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 13.394,
+      "pos_y": 8.03,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896500785"
+    }
+  },
+  "_id": {
+    "$oid": "631dad549fbc89581880943f"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 15.326,
+      "pos_y": 9.217,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896501044"
+    }
+  },
+  "_id": {
+    "$oid": "631dad559fbc895818809440"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 15.887,
+      "pos_y": 9.512,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896501302"
+    }
+  },
+  "_id": {
+    "$oid": "631dad559fbc895818809441"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 17.069,
+      "pos_y": 10.259,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "1": {
+      "pos_x": 15.931,
+      "pos_y": 9.307,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896501557"
+    }
+  },
+  "_id": {
+    "$oid": "631dad559fbc895818809442"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 17.62,
+      "pos_y": 10.604,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "1": {
+      "pos_x": 16.51,
+      "pos_y": 9.647,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896501815"
+    }
+  },
+  "_id": {
+    "$oid": "631dad559fbc895818809443"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 18.148,
+      "pos_y": 10.932,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "1": {
+      "pos_x": 16.999,
+      "pos_y": 9.973,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896502074"
+    }
+  },
+  "_id": {
+    "$oid": "631dad569fbc895818809444"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 18.657,
+      "pos_y": 11.249,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "1": {
+      "pos_x": 16.748,
+      "pos_y": 9.94,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896502340"
+    }
+  },
+  "_id": {
+    "$oid": "631dad569fbc895818809445"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 19.147,
+      "pos_y": 11.554,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "1": {
+      "pos_x": 16.466,
+      "pos_y": 9.853,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896502607"
+    }
+  },
+  "_id": {
+    "$oid": "631dad569fbc895818809446"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 20.073,
+      "pos_y": 12.131,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "1": {
+      "pos_x": 17.221,
+      "pos_y": 10.365,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "2": {
+      "pos_x": 15.699,
+      "pos_y": 8.248,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896502874"
+    }
+  },
+  "_id": {
+    "$oid": "631dad569fbc895818809447"
+  },
+  "instances": {
+    "1": {
+      "pos_x": 17.534,
+      "pos_y": 10.583,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "2": {
+      "pos_x": 15.938,
+      "pos_y": 8.693,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896503129"
+    }
+  },
+  "_id": {
+    "$oid": "631dad579fbc895818809448"
+  },
+  "instances": {
+    "1": {
+      "pos_x": 18.089,
+      "pos_y": 10.977,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "2": {
+      "pos_x": 16.547,
+      "pos_y": 8.591,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "3": {
+      "pos_x": 13.033,
+      "pos_y": 7.07,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896503397"
+    }
+  },
+  "_id": {
+    "$oid": "631dad579fbc895818809449"
+  },
+  "instances": {
+    "1": {
+      "pos_x": 18.353,
+      "pos_y": 11.164,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "2": {
+      "pos_x": 16.38,
+      "pos_y": 8.806,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "3": {
+      "pos_x": 14.211,
+      "pos_y": 7.725,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896503667"
+    }
+  },
+  "_id": {
+    "$oid": "631dad579fbc89581880944a"
+  },
+  "instances": {
+    "1": {
+      "pos_x": 18.607,
+      "pos_y": 11.344,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "2": {
+      "pos_x": 16.872,
+      "pos_y": 8.964,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "3": {
+      "pos_x": 14.708,
+      "pos_y": 7.973,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896503937"
+    }
+  },
+  "_id": {
+    "$oid": "631dad579fbc89581880944b"
+  },
+  "instances": {
+    "2": {
+      "pos_x": 17.477,
+      "pos_y": 9.286,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "3": {
+      "pos_x": 15.791,
+      "pos_y": 8.657,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896504192"
+    }
+  },
+  "_id": {
+    "$oid": "631dad589fbc89581880944c"
+  },
+  "instances": {
+    "2": {
+      "pos_x": 18.064,
+      "pos_y": 9.582,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "3": {
+      "pos_x": 16.591,
+      "pos_y": 9.134,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896504457"
+    }
+  },
+  "_id": {
+    "$oid": "631dad589fbc89581880944d"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 14.427,
+      "pos_y": 8.443,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "2": {
+      "pos_x": 18.611,
+      "pos_y": 9.857,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "3": {
+      "pos_x": 17.499,
+      "pos_y": 9.64,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 16.053,
+      "pos_y": 9.726,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896504722"
+    }
+  },
+  "_id": {
+    "$oid": "631dad589fbc89581880944e"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 15.214,
+      "pos_y": 8.192,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "3": {
+      "pos_x": 17.934,
+      "pos_y": 9.881,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 16.632,
+      "pos_y": 10.085,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896504996"
+    }
+  },
+  "_id": {
+    "$oid": "631dad589fbc89581880944f"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 15.732,
+      "pos_y": 8.725,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "3": {
+      "pos_x": 18.357,
+      "pos_y": 10.115,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 14.37,
+      "pos_y": 8.63,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896505261"
+    }
+  },
+  "_id": {
+    "$oid": "631dad599fbc895818809450"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 16.008,
+      "pos_y": 9.058,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "3": {
+      "pos_x": 18.763,
+      "pos_y": 10.339,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 16.776,
+      "pos_y": 10.146,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896505525"
+    }
+  },
+  "_id": {
+    "$oid": "631dad599fbc895818809451"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 16.583,
+      "pos_y": 9.306,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "3": {
+      "pos_x": 19.154,
+      "pos_y": 10.556,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 16.491,
+      "pos_y": 9.894,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896505785"
+    }
+  },
+  "_id": {
+    "$oid": "631dad599fbc895818809452"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 16.351,
+      "pos_y": 9.438,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 16.569,
+      "pos_y": 9.878,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896506038"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5a9fbc895818809453"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 16.477,
+      "pos_y": 9.609,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 16.491,
+      "pos_y": 9.777,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896506291"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5a9fbc895818809454"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 16.939,
+      "pos_y": 9.853,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 15.933,
+      "pos_y": 9.502,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896506542"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5a9fbc895818809455"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 16.431,
+      "pos_y": 9.672,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 16.219,
+      "pos_y": 9.647,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896506799"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5a9fbc895818809456"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 16.949,
+      "pos_y": 9.991,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 15.262,
+      "pos_y": 9.148,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896507064"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5b9fbc895818809457"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 17.142,
+      "pos_y": 10.119,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 14.913,
+      "pos_y": 8.955,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896507320"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5b9fbc895818809458"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 17.305,
+      "pos_y": 10.231,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 14.596,
+      "pos_y": 8.842,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896507577"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5b9fbc895818809459"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 17.469,
+      "pos_y": 10.343,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 14.408,
+      "pos_y": 8.767,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896507831"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5b9fbc89581880945a"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 17.624,
+      "pos_y": 10.449,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 14.223,
+      "pos_y": 8.607,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896508084"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5c9fbc89581880945b"
+  },
+  "instances": {
+    "0": {
+      "pos_x": 17.919,
+      "pos_y": 10.65,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 13.997,
+      "pos_y": 8.703,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896508348"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5c9fbc89581880945c"
+  },
+  "instances": {
+    "4": {
+      "pos_x": 13.977,
+      "pos_y": 8.613,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896508605"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5c9fbc89581880945d"
+  },
+  "instances": {
+    "1": {
+      "pos_x": 14.32,
+      "pos_y": 8.78,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 13.976,
+      "pos_y": 8.67,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896508873"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5c9fbc89581880945e"
+  },
+  "instances": {
+    "1": {
+      "pos_x": 14.138,
+      "pos_y": 9.03,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 13.815,
+      "pos_y": 8.602,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896509126"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5d9fbc89581880945f"
+  },
+  "instances": {
+    "1": {
+      "pos_x": 14.138,
+      "pos_y": 9.03,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 13.815,
+      "pos_y": 8.602,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896509383"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5d9fbc895818809460"
+  },
+  "instances": {
+    "1": {
+      "pos_x": 14.63,
+      "pos_y": 9.346,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 13.889,
+      "pos_y": 8.64,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896509658"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5d9fbc895818809461"
+  },
+  "instances": {
+    "1": {
+      "pos_x": 15.317,
+      "pos_y": 9.774,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 13.993,
+      "pos_y": 8.723,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+},{
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1662896509915"
+    }
+  },
+  "_id": {
+    "$oid": "631dad5d9fbc895818809462"
+  },
+  "instances": {
+    "1": {
+      "pos_x": 15.87,
+      "pos_y": 10.138,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    },
+    "4": {
+      "pos_x": 13.915,
+      "pos_y": 8.689,
+      "vel_x": 0,
+      "vel_y": 0,
+      "confidence": 0,
+      "sensors": []
+    }
+  }
+}
+]
