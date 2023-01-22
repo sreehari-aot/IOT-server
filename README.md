@@ -8,36 +8,66 @@ A small chunk of datasets are provided by the server which the publisher will us
 
 The publisher script act as an IOT device which publishes data points in certain intervals.
 
-
-## Server endpoints
-
-```
-POST
-url path: {server-url}/publish eg: localhost:8000/publish
-body: {
-    "timeStamp":"1662896469284",
-    "person": "1",
-    "pos_x": 15.32,
-    "pos_y": 8.75,
-    "vel_x": 0,
-    "vel_y": 0,
-    "o_id": "631dad359fbc895818809423"
-}
-
-payload type: application/json
-
-GET
-
-url path: {server-url}/get
-query params: 
-  query {url encoded SQL query}
-  type enum [1 / 2] 1- for position graph, 2 - for count graph
-  
-eg: http://localhost:8000/get?query=SELECT%20*%20from%20%27Human%27&timings=true&type=1
+This project consistes of 4 majour components
+1. Database:-
+    The database used is `Quest DB` which is a time series database. This is where we publish our 
+    data from IOT devices.
+    The database is running on port 9000
+    To make sure database is up and running go to http://localhost:9000
+2. Server:-
+    The server is a nodejs application which exposes endpoints for publishing and retrieving data 
+    from the database.
+    The server is running on port 8000
+    To check if the server is up and running go to http://localhost:8000 after starting the application.
+    Make sure the database is up and running before starting server. (ignore if using compose file)
 
 
-```
+    ## Server endpoints
 
+    ```
+    POST
+    url path: {server-url}/publish eg: localhost:8000/publish
+    body: {
+        "timeStamp":"1662896469284",
+        "person": "1",
+        "pos_x": 15.32,
+        "pos_y": 8.75,
+        "vel_x": 0,
+        "vel_y": 0,
+        "o_id": "631dad359fbc895818809423"
+    }
+
+    payload type: application/json
+
+    GET
+
+    url path: {server-url}/get
+    query params: 
+      query {url encoded SQL query}
+      type enum [1 / 2] 1- for position graph, 2 - for count graph
+
+    eg: http://localhost:8000/get?query=SELECT%20*%20from%20%27Human%27&timings=true&type=1
+
+
+    ```
+3. Publisher:-
+    The publisher is a script which mocks an IOT device by publishing observations everu 20 seconds.
+    Make sure the server is up and running before running publisher script.
+    Once the script is started leave it running since it will publish the data over time and exit 
+    once all data is published.
+4. Client:-
+    The client is a react application which helps to visualize the data in a graphical format.
+    The client offers different charts 
+     - Line charts 
+     - Heatmaps (TODO)
+    
+    The line chart supports 2 options
+        - position (default)
+        - count
+    The default selection in linechart representst `pos_x` over different timestamps
+    The count selection represents the number of persons at a purticular time
+    
+    
 ## Requirements
 - Docker
 - Nodejs: v14.17.0
