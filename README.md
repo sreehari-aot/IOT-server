@@ -53,13 +53,14 @@ eg: http://localhost:8000/get?query=SELECT%20*%20from%20%27Human%27&timings=true
 
 1. clone the repo
 2. run `docker-compose up -d` to start the database
-3. check into server directory
-4. run `npm i && npm start`
-5. once the server is up and running
-6. check into `publisher` directory
-7. run `npm i && node script.js`
-8. check into client directory
-9. run `docker-compose up -d` / `npm i && npm start` to start the client
+3. Before next steps make sure to stop `client` and `server` containers since they will use the allocated porst preventing dev server to run.
+4. check into server directory
+5. run `npm i && npm start`
+6. once the server is up and running
+7. open up a new terminal and check into `publisher` directory
+8. run `npm i && node script.js` and leave it running
+9. check into client directory
+10. run `docker-compose up -d` / `npm i && npm start` to start the client
 
 
 TODO:
@@ -68,7 +69,7 @@ TODO:
 - [x] Move hardcoded values into configurations
 - [x] Single compose file to setup entire application
 - [ ] Optimized script to publish large data sets
-- [ ] Script modification to add time delay to mock an IOT device
+- [x] Script modification to add time delay to mock an IOT device
 
 
 ## Dependencies 
