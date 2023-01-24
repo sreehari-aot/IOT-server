@@ -78,9 +78,14 @@ This project consistes of 4 majour components
 ## Get started
 
 ### Using Docker compose
-1. run `docker-compose up -d` to spin up the databasee, server and client
-2. check into `publisher` directory to publish data 
-3. run `npm i && node scripts` to run the scripts
+1. run `docker-compose up -d` to spin up the databasee, server, client and the publisher
+
+
+The publisher will start sending data once the container is up and running, 
+be patient and wait for couple of minutes to see the graphical representation 
+of the data, head over to http://localhost:3000 to get the charts and will be 
+updated with new data point every 20 secs. Please refresh to see the updated data.
+
 
 ### for development
 
